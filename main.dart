@@ -1,4 +1,4 @@
-class user {
+class User {
   int user_id;
   String surname;
   String name;
@@ -6,7 +6,7 @@ class user {
   String password;
   String land;
 
-  user(
+  User(
     this.user_id,
     this.surname,
     this.name,
@@ -16,7 +16,7 @@ class user {
   );
 }
 
-class victim {
+class Victim {
   int victim_id;
   String surname;
   String name;
@@ -31,7 +31,7 @@ class victim {
   String c_camp;
   String fate;
 
-  victim(
+  Victim(
     this.victim_id,
     this.surname,
     this.name,
@@ -48,7 +48,7 @@ class victim {
   );
 }
 
-class concentration_camp {
+class Concentration_Camp {
   int camp_id;
   String name;
   String location;
@@ -59,7 +59,7 @@ class concentration_camp {
   String type;
   String commander;
 
-  concentration_camp(
+  Concentration_Camp(
     this.camp_id,
     this.name,
     this.location,
